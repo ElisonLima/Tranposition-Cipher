@@ -1,0 +1,23 @@
+
+def trata_txt(msg=""):
+    msg = msg.strip(".").split(" ")
+    lista = []
+    for c in msg:
+        for p in c:
+            lista.append(p)
+
+    return lista
+
+
+def cript(msg=""):
+    dicio = dict()
+    for p in trata_txt(txt):
+        for c in range(0, len(trata_txt(txt))):
+            dicio.update({p: })
+
+    return print(dicio)
+
+txt = """O propósito da nossa vida é acrescentar valor à vida das pessoas desta geração e das gerações seguintes."""
+
+
+cript(txt)
